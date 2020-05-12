@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="389-qn-sna">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="SignInWithApple" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="WCa-6E-wWI"/>
+                    <connections>
+                        <segue destination="4ae-R1-h12" kind="show" id="K5c-QM-uqn"/>
+                        <segue destination="4ae-R1-h12" kind="show" id="TrK-Px-syN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1042.0289855072465" y="119.86607142857142"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="KVR-ep-VsA">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" id="4ae-R1-h12" customClass="LoginViewController" customModule="SignInWithApple" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="us7-ml-NUZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FULL NAME:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pHe-s3-svv">
+                                <rect key="frame" x="20" y="307" width="374" height="24"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="fullname" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZLz-lY-aDC">
+                                <rect key="frame" x="20" y="336" width="374" height="23.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="appleid" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w5v-fg-EXX">
+                                <rect key="frame" x="20" y="427.5" width="374" height="23.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="APPLE ID:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="128-ES-J8A">
+                                <rect key="frame" x="20" y="395.5" width="374" height="24"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WELCOME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DGA-wS-zlz">
+                                <rect key="frame" x="120" y="188" width="174" height="33"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0X-6A-Nqs">
+                                <rect key="frame" x="20" y="776" width="374" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                <state key="normal" title="Log Out">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="onPressLogOut:" destination="4ae-R1-h12" eventType="touchUpInside" id="lQA-TH-oe9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="aWO-M9-oTo" firstAttribute="trailing" secondItem="ZLz-lY-aDC" secondAttribute="trailing" constant="20" id="0QI-mP-db6"/>
+                            <constraint firstItem="128-ES-J8A" firstAttribute="top" secondItem="ZLz-lY-aDC" secondAttribute="bottom" constant="36" id="4J8-OF-Iwx"/>
+                            <constraint firstItem="DGA-wS-zlz" firstAttribute="top" secondItem="aWO-M9-oTo" secondAttribute="top" constant="100" id="6XN-3A-oJp"/>
+                            <constraint firstItem="Y0X-6A-Nqs" firstAttribute="leading" secondItem="aWO-M9-oTo" secondAttribute="leading" constant="20" id="95b-jz-vU6"/>
+                            <constraint firstItem="ZLz-lY-aDC" firstAttribute="trailing" secondItem="pHe-s3-svv" secondAttribute="trailing" id="Cqr-JX-Tti"/>
+                            <constraint firstItem="aWO-M9-oTo" firstAttribute="trailing" secondItem="DGA-wS-zlz" secondAttribute="trailing" constant="120" id="J5l-R5-nJO"/>
+                            <constraint firstItem="ZLz-lY-aDC" firstAttribute="top" secondItem="pHe-s3-svv" secondAttribute="bottom" constant="5" id="KzN-TJ-q8H"/>
+                            <constraint firstItem="ZLz-lY-aDC" firstAttribute="leading" secondItem="pHe-s3-svv" secondAttribute="leading" id="eaF-yq-SEH"/>
+                            <constraint firstItem="128-ES-J8A" firstAttribute="leading" secondItem="pHe-s3-svv" secondAttribute="leading" id="f1F-Qj-SRf"/>
+                            <constraint firstItem="w5v-fg-EXX" firstAttribute="leading" secondItem="pHe-s3-svv" secondAttribute="leading" id="jhe-L7-OV1"/>
+                            <constraint firstItem="w5v-fg-EXX" firstAttribute="trailing" secondItem="pHe-s3-svv" secondAttribute="trailing" id="jqf-s0-3qi"/>
+                            <constraint firstItem="aWO-M9-oTo" firstAttribute="bottom" secondItem="Y0X-6A-Nqs" secondAttribute="bottom" constant="50" id="kUf-UM-cb6"/>
+                            <constraint firstItem="pHe-s3-svv" firstAttribute="top" secondItem="aWO-M9-oTo" secondAttribute="top" constant="219" id="lSK-Zr-Jh8"/>
+                            <constraint firstItem="aWO-M9-oTo" firstAttribute="trailing" secondItem="w5v-fg-EXX" secondAttribute="trailing" constant="20" id="luW-ic-DQi"/>
+                            <constraint firstItem="w5v-fg-EXX" firstAttribute="top" secondItem="128-ES-J8A" secondAttribute="bottom" constant="8" id="pnn-ao-ara"/>
+                            <constraint firstItem="DGA-wS-zlz" firstAttribute="leading" secondItem="aWO-M9-oTo" secondAttribute="leading" constant="120" id="qZe-QB-SbG"/>
+                            <constraint firstItem="pHe-s3-svv" firstAttribute="leading" secondItem="aWO-M9-oTo" secondAttribute="leading" constant="20" id="qem-AB-6NH"/>
+                            <constraint firstItem="aWO-M9-oTo" firstAttribute="trailing" secondItem="Y0X-6A-Nqs" secondAttribute="trailing" constant="20" id="r7m-89-Bfk"/>
+                            <constraint firstItem="128-ES-J8A" firstAttribute="trailing" secondItem="pHe-s3-svv" secondAttribute="trailing" id="seU-uD-3PY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="aWO-M9-oTo"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kXT-yR-nA5"/>
+                    <connections>
+                        <outlet property="appleID" destination="w5v-fg-EXX" id="b1e-F3-97W"/>
+                        <outlet property="fullName" destination="ZLz-lY-aDC" id="9NZ-l0-t2d"/>
+                        <outlet property="logOutButton" destination="Y0X-6A-Nqs" id="El7-jc-Cu0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xbd-1D-6WM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2041" y="-96"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="OBk-SD-p4u">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="389-qn-sna" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1wA-G2-Sfj">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="VO7-HL-EmS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Txl-yd-FVc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="119.86607142857142"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="TrK-Px-syN"/>
+    </inferredMetricsTieBreakers>
+</document>
